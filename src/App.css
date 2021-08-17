@@ -1,0 +1,42 @@
+table th {
+	text-transform: capitalize;
+	background-color: #293241;
+	color: #fff;
+	padding: 5px;
+	cursor: pointer;
+}
+
+.multi-data {
+	display: flex;
+	flex-direction: column;
+	text-align: left;
+}
+
+.multi-data span {
+	padding: 5px 0;
+}
+
+tr {
+	padding: 2px 0;
+}
+
+td {
+	padding: 5px;
+	text-align: center;
+}
+
+tr.even {
+	background-color: #98c1d9;
+}
+
+tr.odd {
+	background-color: #e0fbfc;
+}
+
+.filter-container {
+	padding: 10px 15px 20px 15px;
+}
+
+.name-search label {
+	padding-right: 5px;
+}
